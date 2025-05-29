@@ -25,10 +25,10 @@ export default function Contact() {
     setSubmitStatus({ type: '', message: '' });
 
     emailjs.sendForm(
-      'YOUR_SERVICE_ID', // Vous devrez remplacer ceci par votre Service ID from EmailJS
-      'YOUR_TEMPLATE_ID', // Vous devrez remplacer ceci par votre Template ID from EmailJS
+      'service_sj94wqe', // Vous devrez remplacer ceci par votre Service ID from EmailJS
+      'template_jfbf7iq', // Vous devrez remplacer ceci par votre Template ID from EmailJS
       form.current,
-      'YOUR_PUBLIC_KEY' // Vous devrez remplacer ceci par votre Public Key from EmailJS
+      'PcEAcMUxajp9vxXI6' // Vous devrez remplacer ceci par votre Public Key from EmailJS
     )
       .then((result) => {
         setSubmitStatus({

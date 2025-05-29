@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import dounia from "../images/dounia.png"
 
 export default function Hero() {
@@ -217,13 +218,16 @@ export default function Hero() {
               </a>
             </div>
 
-            <button className="group relative px-8 py-4 overflow-hidden rounded-full bg-transparent border-2 border-[#f2c0b5] text-[#f2c0b5] text-lg font-semibold transition-all duration-300">
-              <span className="relative z-10 group-hover:text-black transition-colors duration-300">
+            <Link 
+              to="/projects" 
+              className="group relative px-8 py-4 overflow-hidden rounded-full bg-transparent border-2 border-[#f2c0b5] text-[#f2c0b5] text-lg font-semibold transition-all duration-300 inline-block"
+            >
+              <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center">
                 Discover my work
                 <span className="inline-block ml-2 transform group-hover:translate-x-1 transition-transform duration-300">↓</span>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#f2c0b5] to-pink-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
-            </button>
+            </Link>
           </div>
 
           <div className="md:w-1/2 mt-10 md:mt-0 perspective-1000">
