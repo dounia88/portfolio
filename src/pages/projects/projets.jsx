@@ -29,7 +29,7 @@ export default function Projets() {
       technologies: ["React", "Node.js", "MongoDB"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "#"
+      github: "https://github.com/dounia88"
     },
     {
       title: "Projet 2",
@@ -37,7 +37,7 @@ export default function Projets() {
       technologies: ["Vue.js", "Express", "PostgreSQL"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "#"
+      github: "https://github.com/dounia88"
     },
     {
       title: "Projet 3",
@@ -45,7 +45,7 @@ export default function Projets() {
       technologies: ["React Native", "Firebase", "Redux"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "#"
+      github: "https://github.com/dounia88"
     }
   ];
 

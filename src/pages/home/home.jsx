@@ -161,7 +161,7 @@ export default function Hero() {
             <div className="flex space-x-6 text-[#f2c0b5] relative z-20">
               {/* LinkedIn */}
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/dounia-hajjaji-9a926332a/" 
                 className="transform hover:scale-110 transition-all duration-300 hover:text-white relative group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -181,7 +181,7 @@ export default function Hero() {
 
               {/* GitHub */}
               <a 
-                href="#" 
+                href="https://github.com/dounia88" 
                 className="transform hover:scale-110 transition-all duration-300 hover:text-white relative group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -201,7 +201,7 @@ export default function Hero() {
 
               {/* Email */}
               <a 
-                href="mailto:votre@email.com" 
+                href="mailto:hajjajidounia8@gmail.com" 
                 className="transform hover:scale-110 transition-all duration-300 hover:text-white relative group"
               >
                 <div className="absolute -inset-2 bg-gradient-to-r from-[#f2c0b5] to-purple-600 rounded-lg opacity-0 group-hover:opacity-70 blur transition-opacity duration-300"></div>
