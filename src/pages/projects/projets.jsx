@@ -24,28 +24,28 @@ export default function Projets() {
 
   const projects = [
     {
-      title: "Projet 1",
-      description: "Description détaillée du projet 1. Expliquez ici les technologies utilisées, les défis relevés et les résultats obtenus.",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "ProjetJS",
+      description: "Application JavaScript moderne avec manipulation avancée du DOM, gestion d'état, et interactions utilisateur dynamiques. Utilisation des dernières fonctionnalités ES6+ et des meilleures pratiques de développement.",
+      technologies: ["JavaScript", "ES6+", "DOM", "CSS3", "HTML5"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "https://github.com/dounia88"
+      github: "https://github.com/dounia88/projetjs"
     },
     {
-      title: "Projet 2",
-      description: "Description détaillée du projet 2. Expliquez ici les technologies utilisées, les défis relevés et les résultats obtenus.",
-      technologies: ["Vue.js", "Express", "PostgreSQL"],
+      title: "Dounia Hajjaji Final Project",
+      description: "Projet final démontrant l'intégration des technologies web modernes. Application complète avec interface utilisateur interactive, gestion des données, et fonctionnalités avancées.",
+      technologies: ["React", "JavaScript", "TailwindCSS", "API Integration"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "https://github.com/dounia88"
+      github: "https://github.com/dounia88/douniahajjaji_final-project-"
     },
     {
-      title: "Projet 3",
-      description: "Description détaillée du projet 3. Expliquez ici les technologies utilisées, les défis relevés et les résultats obtenus.",
-      technologies: ["React Native", "Firebase", "Redux"],
+      title: "Projet Final JavaScript DOM",
+      description: "Application web interactive utilisant les fonctionnalités avancées du DOM. Implémentation de manipulations dynamiques, gestion des événements, et animations personnalisées.",
+      technologies: ["JavaScript", "DOM Manipulation", "Event Handling", "CSS Animations"],
       image: "https://placehold.co/600x400",
       link: "#",
-      github: "https://github.com/dounia88"
+      github: "https://github.com/dounia88/Projet_Finale_JavaScripts-_Dom"
     }
   ];
 

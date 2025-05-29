@@ -5,6 +5,7 @@ import Nav from './layouts/nav';
 import Projets from './pages/projects/projets';
 import Contact from './pages/contact/contact';
 import About from './pages/about/about';
+import Skills from './pages/skills/skills';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projets />} />
       <Route path="/contact" element={<Contact />} />
      
@@ -23,4 +25,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App;    
