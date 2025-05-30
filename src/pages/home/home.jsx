@@ -136,7 +136,7 @@ export default function Hero() {
                   <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-500 to-[#f2c0b5] transform origin-right transition-transform duration-500 group-hover:scale-x-100 scale-x-0"></div>
                 </div>
               </div>
-            </h1>
+          </h1>
 
             <div className="relative">
               <p className="text-xl md:text-2xl text-gray-300 flex items-center gap-3 group cursor-default">
@@ -148,10 +148,10 @@ export default function Hero() {
                   className="bi bi-code-slash transform transition-transform group-hover:rotate-180 duration-500"
                   viewBox="0 0 16 16"
                 >
-                  <path d="M10.478 1.647a.5.5 0 0 1 .375.596l-3 14a.5.5 0 1 1-.97-.21l3-14a.5.5 0 0 1 .595-.386zM4.854 4.146a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 1 0 .708-.708L2.207 8l2.647-2.646a.5.5 0 0 0 0-.708zm6.292 0a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L13.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
-                </svg>
+              <path d="M10.478 1.647a.5.5 0 0 1 .375.596l-3 14a.5.5 0 1 1-.97-.21l3-14a.5.5 0 0 1 .595-.386zM4.854 4.146a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 1 0 .708-.708L2.207 8l2.647-2.646a.5.5 0 0 0 0-.708zm6.292 0a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L13.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+            </svg>
                 <span className="relative inline-block">
-                  Développeuse
+            Développeuse
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#f2c0b5] to-purple-500 transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
                 </span>
               </p>
@@ -237,11 +237,11 @@ export default function Hero() {
               style={{ transformStyle: "preserve-3d" }}
             >
               <div className="absolute -inset-4 bg-gradient-to-r from-[#f2c0b5] to-purple-600 rounded-[2.5rem] blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
-              <img
-                src={dounia}
-                alt="Dounia illustration"
+          <img
+            src={dounia}
+            alt="Dounia illustration"
                 className="relative rounded-[2rem] w-full h-[70vh] object-cover shadow-lg"
-              />
+          />
             </div>
           </div>
         </div>

@@ -53,7 +53,7 @@ export default function Contact() {
       });
   };
 
-  return (
+    return (
     <section className="min-h-screen bg-[#1c1b1b] text-white py-20 px-4 relative overflow-hidden">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20 animate-gradient-shift"></div>

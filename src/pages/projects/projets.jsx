@@ -33,8 +33,8 @@ export default function Projets() {
     },
     {
       title: "Dounia Hajjaji Final Project",
-      description: "Projet final démontrant l'intégration des technologies web modernes. Application complète avec interface utilisateur interactive, gestion des données, et fonctionnalités avancées.",
-      technologies: ["React", "JavaScript", "TailwindCSS", "API Integration"],
+      description: "Portfolio professionnel moderne développé avec HTML, CSS et JavaScript vanilla. Site web dynamique avec des animations personnalisées, une mise en page responsive, et une interface utilisateur intuitive utilisant les meilleures pratiques du développement web moderne.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "CSS Animations"],
       image: "https://placehold.co/600x400",
       link: "#",
       github: "https://github.com/dounia88/douniahajjaji_final-project-"
@@ -49,7 +49,7 @@ export default function Projets() {
     }
   ];
 
-  return (
+    return (
     <section className="min-h-screen bg-[#121212] text-white relative overflow-hidden py-20">
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20 animate-gradient-shift"></div>
