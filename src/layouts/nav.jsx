@@ -51,8 +51,8 @@ export default function Navbar() {
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-60 group-hover:opacity-100 transition duration-500"></div>
                 <div className="relative text-2xl font-bold border border-white/50 rounded-full w-12 h-12 flex items-center justify-center bg-black text-white cursor-pointer hover:scale-105 transform transition duration-300">
-          DH
-        </div>
+                  DH
+                </div>
               </div>
 
               {/* Desktop Navigation */}
